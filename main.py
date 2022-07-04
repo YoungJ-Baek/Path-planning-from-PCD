@@ -13,4 +13,4 @@ from src.pclgrid_converter import pcl2grid_converter
 
 if __name__ == '__main__':
     file_path = sys.argv[1]
-    pcl2grid_converter(file_path)
+    grid_map = pcl2grid_converter(file_path)
