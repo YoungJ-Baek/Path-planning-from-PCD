@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Main function for path planning from PCD file project
 
+0. Execute with 'python [pcd file name]'
 1. Convert PCL to binary Grid Map
 2. Path planning using quadtree and A* algorithm
 
