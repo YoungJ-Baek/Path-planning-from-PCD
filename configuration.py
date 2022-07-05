@@ -21,3 +21,6 @@ OFFSET = 10
 FILE_PATH = 'data/ldso_kitti00_map_inliners.pcd'
 SAVE_GRID = True
 PRINT_INFO = True
+
+""" Configuration for path planning visualization """
+MAPSIZE = 512
