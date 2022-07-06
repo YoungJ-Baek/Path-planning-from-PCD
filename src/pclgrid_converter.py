@@ -21,7 +21,7 @@ import cv2
 import numpy as np
 import configuration as cf
 
-def pcl2grid_converter(file_path=cf.FILE_PATH,save_grid=cf.SAVE_GRID,print_info=cf.PRINT_INFO):
+def pcl2grid_converter(file_path=cf.PCD_FILE_PATH,save_grid=cf.SAVE_GRID,print_info=cf.PRINT_INFO):
     """Convert PCL to Grid Map
     
     Convert PCL to binary Grid Map
