@@ -6,7 +6,7 @@ Efficient path planning using quadtree from PCD format file. Looking for other d
 
 Path finding program based on Python using A* algorithm on given PCD file.
 
----
+
 
 ## Example
 
@@ -20,7 +20,7 @@ You can easily use this program by typing cmd above. For better understanding, w
 python main.py data/ldso_kitti00_map_inliners.pcd
 ```
 
----
+
 
 ## To-do
 
