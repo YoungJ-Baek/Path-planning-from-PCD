@@ -18,9 +18,14 @@ SCALE = 4
 OFFSET = 10
 
 """ Configuration for PCD to Grid Converter Test Function """
-FILE_PATH = 'data/ldso_kitti00_map_inliners.pcd'
-SAVE_GRID = True
-PRINT_INFO = True
+PCD_FILE_PATH = 'data/ldso_kitti00_map_inliners.pcd'
+SAVE_GRID = False
+PRINT_INFO = False
 
-""" Configuration for path planning visualization """
-MAPSIZE = 512
+""" Configuration for path planning """
+PASSABLE = 220
+IMPASSABLE = 0.0
+STARTX = 256
+STARTY = 256
+ENDX = 217
+ENDY = 122
