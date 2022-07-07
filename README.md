@@ -26,4 +26,8 @@ python main.py data/ldso_kitti00_map_inliners.pcd
 
 1. Modify to be able to set up start, end point with arguments(now, configuration file)
 2. Eliminate unnecessary parts of other modules
+<<<<<<< HEAD
 3. Lists for modification needed are astar, graph, quadtree
+=======
+3. Lists for modification needed are astar, graph, quadtree
+>>>>>>> be328cecbf56d6f0040fa34e79dc54519003a607
