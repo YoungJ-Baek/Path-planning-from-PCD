@@ -37,10 +37,10 @@ def gridmap_loader(file, size=cf.MAPSIZE, visualize=False):
     grid = gridmap[2:]
     grid = np.reshape(grid,gridsize)
     grid = grid * cf.PASSABLE
-    im = Image.fromarray(grid).resize((size, size))
+    im = Image.fromarray(grid).resize(size)
 
     if visualize:
-        grid = cv2.resize(grid,(size, size),interpolation=cv2.INTER_LINEAR)
+        grid = cv2.resize(grid,size,interpolation=cv2.INTER_LINEAR)
 
         cv2.imshow("window",grid)
         cv2.waitKey(0)
