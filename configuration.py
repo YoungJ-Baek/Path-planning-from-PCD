@@ -21,6 +21,7 @@ OFFSET = 10
 PCD_FILE_PATH = 'data/ldso_kitti00_map_inliners.pcd'
 SAVE_GRID = False
 PRINT_INFO = False
+MAPSIZE = (512, 512)
 
 """ Configuration for path planning """
 PASSABLE = 220
